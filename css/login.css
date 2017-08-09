@@ -1,0 +1,215 @@
+*{
+    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,img{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;/*取消下划线*/
+    color:#000;
+}
+img{
+    vertical-align:bottom;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+.container{/*容器*/
+    width:1200px;
+    margin:0 auto;
+}
+/**************************************/
+.nav_top{
+    height:40px;
+    background:#F3F3F3;
+}
+.nav div span{
+    font-size:16px;
+    line-height:40px;
+}
+.nav div a{
+    font-size:16px;
+    line-height:40px;
+}
+.nav ul li{
+    line-height:40px;
+    display: inline-block;
+}
+.nav ul li a{
+    margin:0px 5px 0px 5px;
+    font-size:15px;
+}
+
+.Logo{
+    margin-top:20px;
+    height:120px;
+}
+.Logo span{
+    display:inline-block;
+    width:230px;
+    height:60px;
+    font-size:16px;
+    text-align: center;
+    line-height:60px;
+    margin-bottom:15px;
+    /*border:1px solid #000;*/
+}
+.Logo span:nth-child(2){
+    margin-left:40px;
+    background:url("../images/01.png" );
+}
+.Logo span:nth-child(3){
+    color:#fff;
+    background:url("../images/color_pic.png" );
+}
+.Logo span:nth-child(4){
+    background:url("../images/03.png" ) no-repeat;
+}
+
+.nearside{
+    width:300px;
+    height:500px;
+    background:#FBFBFB;
+    display:inline-block;
+    padding-top: 10px;
+}
+.nearside li{
+    width:300px;
+    height:50px;
+    line-height:50px;
+    padding-left:60px;
+}
+.nearside li ul li{
+    display: inline-block;
+    height:30px;
+}
+.nearside li img{
+    margin-bottom:15px;
+    margin-right:10px;
+}
+.nearside li>span{
+    font-size:18px;
+    margin-left:10px;
+}
+
+
+/*左侧导航*/
+.left_nav{
+    width:300px;
+    border-top:0;
+    overflow:hidden;
+    background-color: #fbfbfb;
+}
+.left_nav img{
+    vertical-align: middle
+}
+.left_nav ul{
+    width:300px;
+    height:500px;
+}
+.left_nav ul li{
+    text-align: center;
+    font-size: 16px
+}
+.left_nav li .t{
+    line-height:50px;
+    position:relative
+}
+.left_nav li .t i{
+    display:inline-block;
+    width:6px; height:4px;
+    cursor:pointer
+}
+.left_nav li .t a,.left_nav li .t.hover:hover a{
+    color:#000;
+    font-size:16px;
+}
+.left_nav li .t i{
+    background:url(../images/jiantou1.png) no-repeat 0 center;
+    margin-bottom:5px;
+}
+.left_nav li .t i.active{
+    background:url(../images/jiantou2.png) no-repeat 0 center;
+}
+.left_nav li .txt{
+    display:none
+}
+.left_nav li .txt p{
+    line-height:29px; height:30px; overflow:hidden;
+    padding-left: 128px;
+    text-align: left;
+}
+.left_nav li .txt p:hover{
+    background-color: #f1f1f1;
+    border-top:1px solid #d8d8d8;
+}
+/**/
+
+
+
+
+.starboard{
+    margin-left:23px;
+    width:856px;
+    /*border:1px solid #000;*/
+    padding:20px 0px 0px 10px;
+}
+.starboard>span{
+    font-size:18px;
+}
+.starboard ul{
+    width:445px;
+    text-align: right;
+    margin-bottom:1100px;
+}
+.starboard ul li{
+    margin-top:10px;
+}
+.starboard ul li span{
+    font-size:16px;
+    margin-right:20px;
+}
+.starboard ul li input{
+    width:240px;
+    height:30px;
+    background:#ddd;
+    outline: none;
+    border: none;
+}
+.starboard ul .Choice{
+    margin-right:203px;
+    font-size:16px;
+}
+.starboard ul .Choice input{
+    width:15px;
+    height:15px;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.starboard ul .id_Card input{
+    background:#fff;
+}
+.starboard ul li .final input{
+    margin-top:20px;
+    width:60px;
+    height:20px;
+    border-radius:5px;
+    background:#4F97C7;
+    color:#fff;
+}
+.starboard>ul>li>.final>.Reset{
+    margin-right:115px;
+    color:#878787;
+    background:#DADADA;
+}
+/**************************************************************/
+/*.starboard{*/
+/*display: inline-block;*/
+/*}*/
+/***************************************************************/
+

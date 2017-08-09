@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本信息设置</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="css/Store_Settings.css">
+</head>
+<body>
+<div class="main">
+    <div class="right">
+        <nav>
+            <span></span>
+            <span>
+                欢迎您登陆系统：admin
+            </span>
+            <span>退出登录</span>
+            <span>
+                <img src="../images/out.png">
+            </span>
+        </nav>
+    </div>
+</div>
+<div class="add">
+    <div></div>
+    <div style="font-size: 16px">
+        店铺设置>基本信息设置
+    </div>
+    <div></div>
+</div>
+<div class="details">
+    <form>
+        <ul>
+            <li><span>店铺名称：</span><input type="text"></li>
+            <li><span>店铺关键字：</span><input type="text"></li>
+            <li><span>店铺二级域名：</span><input type="text"></li>
+            <li><span>配送方式：</span><input type="text"></li>
+            <li><span>客服电话：</span><input type="text"></li>
+            <li><div></div></li>
+            <li  class="Logo"><span>店铺logo：</span>
+                <input id="photoCover" type="text">
+                <input  type="file" multiple id="upload_file" name="upload_file" onchange="doChange(this)">
+            </li>
+            <li><span>店铺描述：</span><textarea placeholder="简单描述店铺信息内容不超过200字..."></textarea></li>
+        </ul>
+        <div class="submitBtn"><input type="submit" value="提交"/></div>
+    </form>
+</div>
+<script src="../js/jquery-1.11.3.js"></script>
+<script>
+    function doChange(file){
+        var upload_file = $.trim($("#upload_file").val());    //获取上传文件
+        $('#photoCover').val(upload_file);     //赋值给自定义input框
+    }
+</script>
+</body>
+</html>

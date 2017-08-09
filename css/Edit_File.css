@@ -1,0 +1,72 @@
+*{
+    font: 18px "microsoft yahei",Arial,Helvetica,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,img{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;/*取消下划线*/
+    color:#000;
+}
+/*img{*/
+/*vertical-align:bottom;*/
+/*}*/
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+.center {
+    padding:10px 0 0 30px;
+}
+.center span{
+    font-size:16px;
+    color:#000;
+}
+.center div span{
+    font-size:18px;
+    margin-right:20px;
+    color:#000;
+}
+.center div ul{
+    width:750px;
+    text-align: right;
+}
+.center div ul li{
+    margin-top:20px;
+}
+.center div ul input{
+    width:400px;
+    height:30px;
+    outline: none;
+    border:1px solid #000;
+}
+.center div ul li select{
+    width:400px;
+    height:30px;
+    outline: none;
+    border:1px solid #000;
+}
+.center div button{
+    width:100px;
+    height:30px;
+    background:#fff;
+    border:1px solid #000;
+    border-radius:5px;
+    margin:20px 0 50px 650px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

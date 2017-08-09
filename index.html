@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>index</title>
+<link rel="stylesheet" href="css/index.css" />
+<script type="text/javascript" src="js/jquery-1.7.2.js" ></script>
+<script type="text/javascript" src="js/index.js" ></script>
+</head>
+<body>
+	<div class="main">  
+        <div class="main-left">
+			<h1>logo酷鱼国际</h1>
+			<div class="leftBottom">
+				<dl>
+					<dt>店铺设置<img src="images/anniu1.png"/></dt>
+					<div class="erjiList" style="display:block;">
+						<dd style="background:deepskyblue;"><a href="dianpushezhi/Store_Settings.html" target="right">店铺基本信息设置</a></dd>
+					</div>
+				</dl>
+				<dl>
+					<dt>店铺权限</dt>
+				</dl>
+				<dl>
+					<dt>店铺统计</dt>
+				</dl>
+				<dl>
+					<dt>商品管理<img src="images/anniu2.png"/></dt>
+					<div class="erjiList" style="display: none;">
+						<dd><a href="shangpinguanli/Item.html" target="right">商品分类管理</a></dd>
+						<dd><a href="shangpinguanli/Add_Goods.html" target="right">添加商品</a></dd>
+						<dd><a href="shangpinguanli/Add_Commodity.html" target="right">添加商品信息</a></dd>
+					</div>
+				</dl>
+				<dl>
+					<dt>活动管理</dt>
+				</dl>
+				<dl>
+					<dt>账号管理<img src="images/anniu2.png"/></dt>
+					<div class="erjiList" style="display: none;">
+						<dd><a href="Account.html" target="right">编辑信息</a></dd>
+					</div>
+				</dl>
+				<dl>
+					<dt>订单管理</dt>
+				</dl>
+				<dl>
+					<dt>第三方支付统计</dt>
+				</dl>
+			</div>
+	</div> 
+	<div class="main-right">
+		 <iframe class="right" name="right" src="dianpushezhi/Store_Settings.html" frameborder="0" scrolling="no"></iframe>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="foot"></div>
+</body>
+<script type="text/javascript" src="js/jquery-1.7.2.js" ></script>
+<script>
+	window.onload=window.onresize=function(){
+		if(parseInt($(window).width()-250)>=1190){
+			$(".main-right").width(parseInt($(window).width()-250))
+		}else{
+			$(".main-right").width(1190)
+		}
+	}
+</script>
+</html>

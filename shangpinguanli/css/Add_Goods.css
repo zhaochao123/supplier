@@ -1,0 +1,127 @@
+body{
+    background:#ccc;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+}
+ul li{
+    list-style:none;
+}
+.clear{clear:both;}
+.add div{
+    height:40px;
+    background:#ccc;
+}
+.add div:nth-child(2){
+    height:60px;
+    font-size:15px;
+    line-height: 60px;
+    padding-left:10px;
+    background:#fff;
+    color:#333;
+}
+.branch{
+    background:#fff;
+    padding:20px 0 0  150px;
+}
+.branch select{
+    width:320px;
+    height:30px;
+    border:1px solid #000;
+    border-radius:5px;
+    margin:20px;
+}
+.branch input{
+    width:320px;
+    height:30px;
+    border:1px solid #000;
+    border-radius:5px;
+}
+span{
+    margin:0;
+    padding-top:20px;
+}
+.branch #submitBtn{
+    width:50px;
+    height:30px;
+    background:url("../images/search.png") 15px 8px no-repeat;
+    margin-left:-50px;
+    font-size: 16px;
+    border-left:1px solid #000;
+    outline: none;
+    border-top:none;
+    border-bottom:none;
+    border-right:none;
+}
+.goods{
+    margin-top:20px;
+}
+.goods ul{
+    width:315px;
+    height:404px;
+    margin:10px 0 0 10px;
+    font-size:14px;
+
+    background:#fff;
+    float:left;
+}
+.goods ul li{
+    margin-top:5px;
+    padding:0px 5px;
+}
+.goods ul .Import{
+    background:red;
+    text-align: center;
+    display: none;
+    height:30px;
+    line-height:30px;
+    margin-top:5px;
+}
+.goods ul:hover .Import{
+    display: block;
+}
+
+.paging{
+    float:right;
+    margin-right:250px;
+    text-align: center;
+    line-height:30px;
+}
+.paging ul li{
+    height:30px;
+    display:inline-block;
+}
+.paging ul li select{
+    width:50px;
+    height:30px;
+}
+.paging ul li button{
+    width:50px;
+    height:30px;
+    border:1px solid #ADD8E6;
+    border-radius:5px;
+    background:#fff;
+}
+.Bottom_btn{
+    padding:50px 0 50px 200px;
+}
+.Bottom_btn button{
+    font-size:18px;
+    width:200px;
+    height:50px;
+    line-height:50px;
+    border:none;
+    border-radius:5px;
+    margin-left:250px;
+}
+.Bottom_btn .btn1{
+    background:#B7B7B7;
+}
+.Bottom_btn .btn2{
+    background:#5E9CC6;
+}
+
+
+
+

@@ -1,0 +1,106 @@
+*{
+    font: 18px "microsoft yahei",Arial,Helvetica,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,img{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;/*取消下划线*/
+    color:#000;
+}
+/*img{*/
+    /*vertical-align:bottom;*/
+/*}*/
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+
+.add div{
+    height:40px;
+    background:#ccc;
+}
+.add div:nth-child(2){
+    height:60px;
+    font-size:15px;
+    line-height: 60px;
+    padding-left:10px;
+    border-radius: 0px 10px 0px 0px;
+    background:#fff;
+    color:#333;
+}
+.details{
+    padding-top:20px;
+}
+.details span{
+    font-size:18px;
+    margin-right:20px;
+}
+.details ul{
+    width:750px;
+    text-align: right;
+    margin-left:200px;
+}
+.details ul li{
+    margin-top:20px;
+}
+.details ul li input{
+    width:563px;
+    height:50px;
+    outline: none;
+    border:1px solid #ccc;
+}
+.Logo{
+    background:url("../../images/shangchuan.png") 630px 0px no-repeat;
+}
+.details .Logo input{
+    width:445px;
+    display:inline-block;
+    border-right: none;
+}
+#upload_file{
+    display: inline-block;
+    border:1px solid #000;
+    opacity:0;
+    width:115px;
+    height:60px;
+}
+.details ul li textarea{
+    height:200px;
+    width:560px;
+    vertical-align:top;
+    resize:none;
+    text-align:left;
+    font-size:14px;
+}
+
+.submitBtn input{
+    color:#fff;
+    height:40px;
+    width:100px;
+    border:none;
+    background-color: #65A4CE;
+    border-radius:5px;
+    margin:40px 0px 100px 850px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

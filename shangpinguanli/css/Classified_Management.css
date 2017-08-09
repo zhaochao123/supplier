@@ -1,0 +1,57 @@
+.add div{
+    height:40px;
+    background:#E9F2F8;
+}
+.add div:nth-child(2){
+    height:60px;
+    font-size:15px;
+    line-height: 60px;
+    padding-left:10px;
+    background:#fff;
+    color:#333;
+}
+.center{
+    padding:20px 0px 0px 260px;
+}
+.center div{
+    margin-top:10px;
+}
+.center div span{
+    font-size:16px;
+    line-height:30px;
+}
+.center div input{
+    width:320px;
+    height:30px;
+}
+.center div select{
+    width:103px;
+    height:30px;
+}
+.center .box input{
+    width:14px;
+    height:14px;
+    margin-right:5px;
+}
+.center .submitBtn input{
+    font-size:16px;
+    width:100px;
+    height:30px;
+    line-height:30px;
+    color:#fff;
+    border:none;
+    background:#65A4CE;
+    border-radius:5px;
+    margin-left:300px;
+}
+
+
+
+
+
+
+
+
+
+
+

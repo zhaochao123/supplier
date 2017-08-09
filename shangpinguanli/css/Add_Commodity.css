@@ -1,0 +1,114 @@
+.add div{
+    height:40px;
+    background:#E9F2F8;
+}
+.add div:nth-child(2){
+    height:60px;
+    line-height: 60px;
+    padding-left:10px;
+    background:#fff;
+}
+.information .text1{
+    height:50px;
+    line-height:50px;
+    border-bottom:1px solid #000;
+    padding-left:40px;
+}
+/******************/
+.center .text2{
+    padding-top:15px;
+    padding-left:80px;
+}
+.center div span{
+    color:#717171;
+    margin-right:10px;
+}
+.center div img{
+    width:25px;
+    vertical-align:middle;
+}
+.center div span{
+    font-size:18px;
+    margin-right:20px;
+    color:#000;
+}
+.center div ul{
+    width:750px;
+    text-align: right;
+}
+.center div ul li{
+    margin-top:20px;
+}
+.center div ul input{
+    width:400px;
+    height:30px;
+    outline: none;
+    border:1px solid #000;
+}
+.center div ul .only{
+    padding-right:260px;
+}
+.center div ul .only label{
+    font-size:14px;
+    padding-right:30px;
+}
+.center div ul .only input{
+    width:15px;
+    height:20px;
+    vertical-align:middle;
+    margin-right:10px;
+}
+.center div ul .only2{
+    padding-right:10px;
+}
+.center div ul .only2 label{
+    font-size:14px;
+    padding-right:30px;
+}
+.center div ul .only2 input{
+    width:15px;
+    height:20px;
+    vertical-align:middle;
+    margin-right:10px;
+}
+.center div ul li select{
+    width:100px;
+    height:30px;
+    border:1px solid #000;
+    border-radius:5px;
+    margin-right:10px;
+}
+.attribute{
+    padding-right:170px;
+}
+.center div button{
+    width:100px;
+    height:30px;
+    background:#fff;
+    border:1px solid #000;
+    border-radius:5px;
+    margin:20px 0 50px 650px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,7 +2,7 @@
     height:40px;
     background:#E9F2F8;
 }
-.add div:nth-child(2){
+.add .fff{
     height:60px;
     line-height: 60px;
     padding-left:10px;
@@ -29,7 +29,7 @@
 }
 .center div span{
     font-size:18px;
-    margin-right:20px;
+    margin-right:5px;
     color:#000;
 }
 .center div ul{
@@ -87,10 +87,14 @@
     background:#fff;
     border:1px solid #000;
     border-radius:5px;
-    margin:20px 0 50px 650px;
+    margin:20px 0 50px 1050px;
 }
-
-
+.wbk{
+    padding-left:355px;
+}
+.center div ul li p{
+    margin-right:405px;
+}
 
 
 

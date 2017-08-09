@@ -47,6 +47,7 @@ a{
 }
 .details ul li{
     margin-top:20px;
+    vertical-align: middle;
 }
 .details ul li input{
     width:563px;
@@ -54,11 +55,9 @@ a{
     outline: none;
     border:1px solid #ccc;
 }
-.Logo{
-    background:url("../../images/shangchuan.png") 630px 0px no-repeat;
-}
+
 .details .Logo input{
-    width:445px;
+    width:440px;
     display:inline-block;
     border-right: none;
 }
@@ -68,6 +67,18 @@ a{
     opacity:0;
     width:115px;
     height:60px;
+}
+.details .Logo button{
+    margin-top:21px\0;
+}
+.details .Logo>.bjt{
+    list-style: none;
+    display: inline-block;
+    border:none;
+    width:120px;
+    height:60px;
+    margin-left: -5px;
+    background:url("../../images/shangchuan.png") 0px 3px no-repeat;
 }
 .details ul li textarea{
     height:200px;

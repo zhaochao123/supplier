@@ -7,23 +7,13 @@
     <link rel="stylesheet" href="css/Store_Settings.css">
 </head>
 <body>
-<div class="main">
-    <div class="right">
-        <nav>
-            <span></span>
-            <span>
-                欢迎您登陆系统：admin
-            </span>
-            <span>退出登录</span>
-            <span>
-                <img src="../images/out.png">
-            </span>
-        </nav>
-    </div>
+<div class="head">
+    <div class="head-left"><img src="images/touxiang.jpg"/><span>欢迎您登录：admin</span></div>
+    <div class="head-right"><img src="images/out.png"/><span>退出登录</span></div>
 </div>
 <div class="add">
     <div></div>
-    <div style="font-size: 16px">
+    <div class="fff">
         店铺设置>基本信息设置
     </div>
     <div></div>
@@ -37,9 +27,13 @@
             <li><span>配送方式：</span><input type="text"></li>
             <li><span>客服电话：</span><input type="text"></li>
             <li><div></div></li>
-            <li  class="Logo"><span>店铺logo：</span>
+            <li  class="Logo">
+                <span>店铺logo：</span>
                 <input id="photoCover" type="text">
-                <input  type="file" multiple id="upload_file" name="upload_file" onchange="doChange(this)">
+                <button class="bjt">
+                    <input  type="file" multiple id="upload_file" name="upload_file" onchange="doChange(this)">
+                </button>
+
             </li>
             <li><span>店铺描述：</span><textarea placeholder="简单描述店铺信息内容不超过200字..."></textarea></li>
         </ul>

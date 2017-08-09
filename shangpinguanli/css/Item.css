@@ -8,11 +8,12 @@ ul li{
 .clear{clear:both;}
 .lf{float:left;}
 .rt{float:right;}
+
 .add div{
     height:40px;
     background:#E9F2F8;
 }
-.add div:nth-child(2){
+.add .fff{
     height:60px;
     line-height: 60px;
     padding-left:10px;
@@ -62,21 +63,19 @@ ul li{
 .center .btm button{
     width:70px;
     height:30px;
+    line-height:14px;
     border:1px solid #000;
     border-radius:5px;
     background:#fff;
     margin-right:20px;
 }
+/*********兼容IE*******************/
+.center .btm{
+    padding-top:10px\0;
+}
 .center .btm button img{
     margin-right:5px;
 }
-/*.center .btm .btn1 button{*/
-    /*width:60px;*/
-    /*height:30px;*/
-    /*border:1px solid #7F7F7F;*/
-    /*background:#fff;*/
-    /*border-radius:15px;*/
-/*}*/
 .del button{
     margin:20px 0 0 100px;
     width:70px;
@@ -98,6 +97,7 @@ ul li{
     width:20px;
     height:20px;
 }
+
 .dbfy  button{
     width: 50px;
     height:25px;

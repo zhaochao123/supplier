@@ -44,7 +44,6 @@ a{
 }
 .center li{
     width:10%;
-    /*min-width:200px;*/
     height:50px;
     line-height:50px;
     display:inline-block;
@@ -57,12 +56,15 @@ a{
     border-bottom:1px solid #ccc;
 }
 .center .btm button{
-    width:70px;
+    width:65px;
     height:30px;
     border:1px solid #000;
     border-radius:5px;
     background:#fff;
-    margin-right:20px;
+    margin-right:10px;
+}
+.center .btm .btn2{
+    padding-top:10px\0;
 }
 .center .btm button img{
     margin-right:5px;

@@ -10,49 +10,67 @@ html,body{
 }
 a{
     text-decoration:none;
+    color:#fff;
 }
 ul li{
     list-style:none;
 }
-.main{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
+button{vertical-align: middle; +padding-top:3px;*line-height:14px;}
+.head{
+    width:100%;
+    height:80px;
+    padding-top:15px;
     background:#fff;
 }
-.right{
-    width: 100%;
+.head-left{
+    height:50px;
+    line-height:50px;
+    width:50%;
+    float:left;
+    text-align: left;
 }
-nav{
-    height:80px ;
-    line-height: 80px;
-}
-nav span{
-    display: inline-block;
-    height: 80px;
-    line-height: 80px;
-    vertical-align: middle;
-}
-nav>span:first-child{
-    width: 50px;
-    height: 50px;
-    background-color: black;
+.head-left img{
+    width:50px;
+    height:50px;
     border-radius: 50%;
+    float:left;
+    margin-right:10px;
 }
-nav>span:nth-of-type(3){
-    float: right;
+.head-left span{
+    height:50px;
+    line-height:50px;
+    font-size:18px;
+    color:#333;
+    display:inline-block;
 }
-nav>span:last-child{
-    float: right;
-    padding-right: 10px;
-    padding-top: 4px;
+.head-right{
+    padding-right:40px;
+    height:50px;
+    line-height:50px;
+    width:50%;
+    float:right;
+    text-align: right;
 }
-
+.head-right img{
+    margin-right:10px;
+    width:18px;
+    height:18px;
+    display:inline-block;
+    position: relative;
+    top:3px;
+}
+.head-left span{
+    height:50px;
+    line-height:50px;
+    font-size:18px;
+    color:#333;
+    display:inline-block;
+}
 .add div{
     height:40px;
     background:#ccc;
 }
-.add div:nth-child(2){
+.add .fff{
     height:60px;
     font-size:15px;
     line-height: 60px;
